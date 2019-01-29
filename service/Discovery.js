@@ -12,8 +12,8 @@ Discovery.prototype.Query = function (something) {
     var req = something != undefined ? something : "";
 
     return new Promise(function (resolve, reject) {
-    	var collection_id = "8616fb99-b3a4-4882-9bc1-1f8312e96855";
-    	var environment_id = "1c688289-0f5a-418f-b70d-bf2b2ff82f1b";
+    	var collection_id = "API Key";
+    	var environment_id = "API Key";
     	
     	console.log("calling discover service");
     	// TODO: Call this.discovery.query();
