@@ -40,7 +40,7 @@ function configFromEnv() {
     c.username = vcap["conversation"][0]["credentials"]["username"];
     c.password = vcap["conversation"][0]["credentials"]["password"];
     c.path = {
-        workspace_id: "4b38fb18-5c57-435a-8843-3cc4d86eda2d"
+        workspace_id: "API Key"
     };
     c.version_date = ConversationV1.VERSION_DATE_2017_04_21;
 
